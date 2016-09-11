@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="spinnerpnp">
+    <string-array name="pnp">
         <item>Dewasa</item>
         <item>Anak-Anak</item>
     </string-array>

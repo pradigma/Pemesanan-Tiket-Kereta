@@ -43,7 +43,8 @@
         <EditText
             android:id="@+id/editTextNama"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:hint="Nama" />
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
@@ -53,6 +54,7 @@
             android:id="@+id/editTextTahun"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="Tahun Kelahiran"
             android:inputType="numberSigned" />
         </android.support.design.widget.TextInputLayout>
 
@@ -66,22 +68,23 @@
         <RadioGroup
             android:id="@+id/RadioGroupJK"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"></RadioGroup>
+            android:layout_height="wrap_content">
 
-        <RadioButton
-            android:id="@+id/radioButtonLaki"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.34"
-            android:text="Laki-Laki" />
+            <RadioButton
+                android:id="@+id/radioButtonPr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.53"
+                android:checked="false"
+                android:text="Perempuan" />
 
-        <RadioButton
-            android:id="@+id/radioButtonPr"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.53"
-            android:checked="false"
-            android:text="Perempuan" />
+            <RadioButton
+                android:id="@+id/radioButtonLaki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.34"
+                android:text="Laki-Laki" />
+        </RadioGroup>
 
         <TextView
             android:id="@+id/textView6"
@@ -92,7 +95,8 @@
         <Spinner
             android:id="@+id/spinnerpnp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:entries="@array/pnp" />
 
         <TextView
             android:id="@+id/textView7"
