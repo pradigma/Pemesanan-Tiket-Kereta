@@ -36,28 +36,26 @@
             android:layout_height="wrap_content"
             android:text="DATA PENUMPANG" />
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Nama" />
 
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
         <EditText
             android:id="@+id/editTextNama"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
 
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Tahun Kelahiran" />
-
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
         <EditText
             android:id="@+id/editTextTahun"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="numberSigned" />
+        </android.support.design.widget.TextInputLayout>
+
 
         <TextView
             android:id="@+id/textView5"
@@ -66,21 +64,23 @@
             android:text="Jenis Kelamin" />
 
         <RadioGroup
+            android:id="@+id/RadioGroupJK"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"></RadioGroup>
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/radioButtonLaki"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.34"
             android:text="Laki-Laki" />
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/radioButtonPr"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.53"
+            android:checked="false"
             android:text="Perempuan" />
 
         <TextView
@@ -107,19 +107,19 @@
             android:text="Kelas" />
 
         <CheckBox
-            android:id="@+id/checkBox"
+            android:id="@+id/checkBoxEk"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="EKONOMI" />
 
         <CheckBox
-            android:id="@+id/checkBox2"
+            android:id="@+id/checkBoxEks"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="EKSEKUTIF" />
 
         <CheckBox
-            android:id="@+id/checkBox3"
+            android:id="@+id/checkBoxBs"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="BISNIS" />
