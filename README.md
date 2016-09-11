@@ -10,7 +10,7 @@ menggunakan deteksi kesalahan, apabila ada yang belum terisi maka akan ada pesan
 ![SC2]
 (https://docs.google.com/uc?id=0B-huYAsaUr4IZjNvMnJ3U0h5N3c)
 ![SC3]
-(https://docs.google.com/uc?id=0B-huYAsaUr4IVjhISFZadGRHazA)
+(https://docs.google.com/uc?id=0B-huYAsaUr4IWURiN3ZjeTZpejQ)
 
 [link apk]
 (https://drive.google.com/open?id=0B-huYAsaUr4IYlB3VDlKX0NNbzg)
